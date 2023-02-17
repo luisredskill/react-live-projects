@@ -1,0 +1,91 @@
+.mosaic{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+}
+
+.mosaic--container{
+    /* width: 41.5vw;
+    height: 24vw; */
+    width: 62.25vw;
+    height: 36vw;
+    margin-top: 25px;
+    position: relative;
+}
+
+
+
+
+
+.mosaic--imgs{
+   position: absolute;
+   width: 18%;
+   box-shadow: 3px 3px 10px black;
+   border-radius: 15%;
+   border-color: rgba(0, 0, 0, 0.288);
+   background-color: #797979;
+}
+
+.mosaic--img--01:hover, .mosaic--img--02:hover, .mosaic--img--03:hover, .mosaic--img--04:hover, .mosaic--img--05:hover, .mosaic--img--06:hover, .mosaic--img--07:hover, .mosaic--img--08:hover, .mosaic--img--09:hover{
+    transform: scale(0.9);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+/* ------------ COLUNA 1 - LEFT 0 --------------*/
+
+.mosaic--img--01{
+    top: 25%;
+}
+
+
+
+/* ------------ COLUNA 2 - LEFT 7 --------------*/
+
+.mosaic--img--02{
+    top: 8.3%;
+    left: 20%;
+    
+}
+
+.mosaic--img--03{
+    top: 39.6%;
+    left: 20%;
+}
+
+/* ------------ COLUNA 3 - LEFT 14 --------------*/
+
+.mosaic--img--04{
+    top: 16.7%;
+    left: 40%;
+}
+
+.mosaic--img--05{
+    top: 60.4%;
+    left: 40%;
+}
+/* ------------ COLUNA 4 - LEFT 21 --------------*/
+
+.mosaic--img--06{
+    left: 60%;
+    top: 0vw;
+}
+
+.mosaic--img--07{
+    left: 60%;
+    top: 43.75%;
+}
+
+/* ------------ COLUNA 5 - LEFT 28 --------------*/
+
+.mosaic--img--08{
+    left: 80%;
+    top: 12.5%;
+}
+
+.mosaic--img--09{
+    left: 80%;
+    top: 56.25%;
+}

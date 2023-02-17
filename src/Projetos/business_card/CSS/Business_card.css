@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+/*------------ GLOBAL CONFIG ------------*/
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.Business_cardBody{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #23252C;
+  color: white;
+  font-family: 'Inter', sans-serif;
+
+}
+
+/*------------ APP CONFIG ------------*/
+
+.Business_card{
+  background-color: #1A1B21;
+  width: 320px;
+  height: 780px;
+  border-radius: 10px;
+  position: relative;
+}
+
+/*------------ PHOTO ------------*/
+
+.photo--container{
+  width: 320px;
+  height: 320px;
+  background-image: url("../media/photo.jpg");
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+/*------------ NAME ------------*/
+
+.name--container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name--container h1{
+  font-size: 25px;
+  padding-top: 25px;
+}
+
+.name--container h3{
+    font-size: 13px;
+    font-weight: normal;
+    color: #F3BF99;
+}
+
+.name--container p{
+    font-size: 10px;
+    padding-top: 10px;
+}
+
+/*------------ BUTTONS ------------*/
+
+.buttons--container{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buttons{
+  padding: 10px;
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+/*------------ LINKEDIN ------------*/
+
+.buttons--linkedin{
+  background-color: #5093E2;
+  color: white;
+}
+
+.buttons--linkedin--logo{
+  background-image: url(../media/linkedin.png);
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+}
+
+.buttons--linkedin:hover{
+  background-color: #11519b;
+}
+
+/*------------ MAIL ------------*/
+
+.buttons--email{
+  background-color: #ffffff;
+  color: black;
+}
+
+.buttons--email--logo{
+  background-image: url(../media/Mail.png);
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+}
+
+.buttons--email:hover{
+  background-color: #cfcfcf;
+}
+
+/*------------ Text ------------*/
+
+.text--container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  width: 250px;
+}
+
+.text--container h1{
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 3px;
+}
+
+.text--container p{
+  font-size: 10px;
+}
+
+/*------------ FOOTER ------------*/
+
+.footer--container{
+  background-color: #161619;
+  border-radius: 0px 0px 10px 10px;
+  height: 64px;
+  width: 100%;
+  display: flex;
+  margin-bottom: auto;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 92%;
+}
+
+.footer--logo{
+  width: 25px;
+  height: 25px;
+  margin: 0px 10px 0px 10px;
+  transform: scale(1);
+  transition: 0.3s ease;
+}
+
+.footer--logo:hover{
+  transform: scale(1.1);
+  width: 25px;
+  height: 25px;
+  margin: 0px 10px 0px 10px;
+  transition: 0.3s ease;
+}
+
+.footer--twitter--logo{
+  background-image: url("../media/Twitter_Icon.png");
+}
+
+.footer--facebook--logo{
+  background-image: url("../media/Facebook_Icon.png");
+}
+
+.footer--instagram--logo{
+  background-image: url("../media/Instagram_Icon.png");
+}
+
+.footer--github--logo{
+  background-image: url("../media/GitHub_Icon.png");
+}
+
+@media (-webkit-device-pixel-ratio: 1.25) {
+  * {
+    zoom: 1;
+  }
+}
