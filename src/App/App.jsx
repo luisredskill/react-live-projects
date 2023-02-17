@@ -15,10 +15,12 @@ function App() {
   return (
 
     <Router>
+      <Routes>
         <Route path="/react-live-projects" element={<Home />}/>
         <Route path="/react-live-projects/ReactFacts" element={<ReactFacts />}/>
         <Route path="/react-live-projects/BusinessCard" element={<BusinessCard />}/>
         <Route path="/react-live-projects/AirbnbClone" element={<AirbnbClone />}/>
+      </Routes>
     </Router>
   );
 }
