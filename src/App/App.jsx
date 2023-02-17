@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 import './App.css';
 import ReactFacts from '../Projetos/react_facts/Components/React_facts';
@@ -15,12 +15,10 @@ function App() {
   return (
 
     <Router>
-      <Routes>
         <Route path="/react-live-projects" element={<Home />}/>
         <Route path="/react-live-projects/ReactFacts" element={<ReactFacts />}/>
         <Route path="/react-live-projects/BusinessCard" element={<BusinessCard />}/>
         <Route path="/react-live-projects/AirbnbClone" element={<AirbnbClone />}/>
-      </Routes>
     </Router>
   );
 }
