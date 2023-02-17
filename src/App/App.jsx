@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter,BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import './App.css';
 import ReactFacts from '../Projetos/react_facts/Components/React_facts';
@@ -14,14 +14,14 @@ import Home from '../Home';
 function App() {
   return (
 
-    <Router>
+    <HashRouter>
       <Routes>
-        <Route path="/react-live-projects" element={<Home />}/>
-        <Route path="/react-live-projects/ReactFacts" element={<ReactFacts />}/>
+        <Route path="/react-live-projects" element={<Home/>}/>
+        <Route path="/react-live-projects/ReactFacts" element={<ReactFacts/>}/>
         <Route path="/react-live-projects/BusinessCard" element={<BusinessCard />}/>
-        <Route path="/react-live-projects/AirbnbClone" element={<AirbnbClone />}/>
+        <Route path="/react-live-projects/AirbnbClone" element={<AirbnbClone/>}/>
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 
