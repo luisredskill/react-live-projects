@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-live-projects/static/css/main.3811efc5.css",
-    "main.js": "/react-live-projects/static/js/main.4a066a56.js",
+    "main.js": "/react-live-projects/static/js/main.e8ad3feb.js",
     "static/media/7.svg": "/react-live-projects/static/media/7.47781f85f30940cb2b0e301c8ee92824.svg",
     "static/media/5.svg": "/react-live-projects/static/media/5.5a40c1cc90925e53d8bd3a0aef1d6451.svg",
     "static/media/9.svg": "/react-live-projects/static/media/9.92ea32fc85e080d5df7b7f60558f331d.svg",
@@ -18,10 +18,10 @@
     "static/media/Star.svg": "/react-live-projects/static/media/Star.4253351289a38a7cf56081641a6dcee6.svg",
     "index.html": "/react-live-projects/index.html",
     "main.3811efc5.css.map": "/react-live-projects/static/css/main.3811efc5.css.map",
-    "main.4a066a56.js.map": "/react-live-projects/static/js/main.4a066a56.js.map"
+    "main.e8ad3feb.js.map": "/react-live-projects/static/js/main.e8ad3feb.js.map"
   },
   "entrypoints": [
     "static/css/main.3811efc5.css",
-    "static/js/main.4a066a56.js"
+    "static/js/main.e8ad3feb.js"
   ]
 }
