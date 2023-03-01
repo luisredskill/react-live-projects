@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-live-projects/static/css/main.800f8803.css",
-    "main.js": "/react-live-projects/static/js/main.b4092aed.js",
+    "main.css": "/react-live-projects/static/css/main.3811efc5.css",
+    "main.js": "/react-live-projects/static/js/main.4a066a56.js",
     "static/media/7.svg": "/react-live-projects/static/media/7.47781f85f30940cb2b0e301c8ee92824.svg",
     "static/media/5.svg": "/react-live-projects/static/media/5.5a40c1cc90925e53d8bd3a0aef1d6451.svg",
     "static/media/9.svg": "/react-live-projects/static/media/9.92ea32fc85e080d5df7b7f60558f331d.svg",
@@ -9,17 +9,19 @@
     "static/media/2.svg": "/react-live-projects/static/media/2.1cb2de02197e3044751f576ea0dcf7fb.svg",
     "static/media/3.svg": "/react-live-projects/static/media/3.0734f51427c5019b351574e85e5b6776.svg",
     "static/media/6.svg": "/react-live-projects/static/media/6.8b47a3852507e6db28e23528ceb9b08f.svg",
+    "static/media/Exp_1_no_batch.svg": "/react-live-projects/static/media/Exp_1_no_batch.6d927114bcaef956db476d451df204fc.svg",
     "static/media/1.svg": "/react-live-projects/static/media/1.0a800af2799759b798577c423ceaa0b4.svg",
     "static/media/8.svg": "/react-live-projects/static/media/8.4edf64e66b63e6c92002952e9a261012.svg",
     "static/media/photo.jpg": "/react-live-projects/static/media/photo.ebc6876edbbd113ce2dd.jpg",
     "static/media/airbnb_logo.svg": "/react-live-projects/static/media/airbnb_logo.7e7ca2088498b305c288c7f55663a20a.svg",
     "static/media/react_bg.svg": "/react-live-projects/static/media/react_bg.8fc211f27a8ddc40e189.svg",
+    "static/media/Star.svg": "/react-live-projects/static/media/Star.4253351289a38a7cf56081641a6dcee6.svg",
     "index.html": "/react-live-projects/index.html",
-    "main.800f8803.css.map": "/react-live-projects/static/css/main.800f8803.css.map",
-    "main.b4092aed.js.map": "/react-live-projects/static/js/main.b4092aed.js.map"
+    "main.3811efc5.css.map": "/react-live-projects/static/css/main.3811efc5.css.map",
+    "main.4a066a56.js.map": "/react-live-projects/static/js/main.4a066a56.js.map"
   },
   "entrypoints": [
-    "static/css/main.800f8803.css",
-    "static/js/main.b4092aed.js"
+    "static/css/main.3811efc5.css",
+    "static/js/main.4a066a56.js"
   ]
 }
