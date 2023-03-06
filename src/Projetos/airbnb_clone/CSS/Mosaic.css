@@ -89,3 +89,73 @@
     left: 80%;
     top: 56.25%;
 }
+
+/* ------------ MAX WIDTH 450PX --------------*/
+
+@media screen and (max-width:475px){
+    .mosaic--container{
+        /* width: 41.5vw;
+        height: 24vw; */
+        width: 66.66vw;
+        height: 100vw;
+        margin-top: 15px;
+        position: relative;
+    }
+
+    .mosaic--imgs{
+        position: absolute;
+        width: 30%;
+        box-shadow: 3px 3px 10px black;
+        border-radius: 15%;
+        border-color: rgba(0, 0, 0, 0.288);
+        background-color: #797979;
+     }
+
+    .mosaic--img--01{
+        top: 5%;
+    } 
+    
+    .mosaic--img--02{
+        top: 0%;
+        left: 34.5%;
+        
+    }
+    
+    .mosaic--img--03{
+        top: 8%;
+        left: 69%;
+    }
+
+
+    .mosaic--img--04{
+        top: 35%;
+        left: 0%;
+    }
+
+    
+    .mosaic--img--05{
+        top: 20.5%;
+        left: 34.5%;
+    }
+    
+    .mosaic--img--06{
+        left: 69%;
+        top: 38%;
+    }
+    
+    .mosaic--img--07{
+        left: 0%;
+        top: 65%;
+    }
+    
+    .mosaic--img--08{
+        left: 34.5%;
+        top: 50.5%;
+    }
+    
+    .mosaic--img--09{
+        left: 69%;
+        top: 68%;
+}
+
+}

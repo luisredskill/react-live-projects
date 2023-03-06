@@ -1,12 +1,16 @@
-import Mosaic from "./Mosaic"
+import '../CSS/App.css';
 import Nav from "./Nav"
-import "../CSS/Airbnb_clone.css"
+import Mosaic from "./Mosaic"
+import Experiences from './Experiences';
 
-export default function Airbnb_clone() {
-    return(
-        <div>
-            <Nav />
-            <Mosaic />
-        </div>
-    )
+function App() {
+  return (
+   <div>
+     <Nav />
+     <Mosaic />
+     <Experiences/>
+   </div>
+  );
 }
+
+export default App;

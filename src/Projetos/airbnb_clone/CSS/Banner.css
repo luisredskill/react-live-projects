@@ -1,0 +1,136 @@
+.banner--container{
+    margin-left: 70px;
+    width: 15vw;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+.banner--img--container{
+    position: relative;
+    width: 100%;
+    height: 20vw;
+}
+
+.banner--img{
+    position: absolute;
+    width: 100%;
+}
+
+.banner--batch{
+    position: absolute;
+    width: 30%;
+    height: 7%;
+    font-size: 0.75vw;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #222222;
+    top: 0.8vw;
+    left: 0.8vw;
+    background-color: white;
+    border-radius: 5px;
+}
+.banner--text--container{
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: white;
+}
+.banner--rating--container{
+    display: flex;
+}
+
+.banner--rating--star{
+    width: 15px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+}
+
+.banner--rating--number{
+    color: #918E9B;
+}
+
+.banner--price{
+    font-weight: bolder;
+}
+
+
+
+@media screen and (max-width:1200px){
+    .banner--container{
+        margin-left: 50px;
+        width: 20vw;
+    }
+
+    .banner--img--container{
+        height: 26.6vw;
+    }
+
+    .banner--batch{
+        width: 35%;
+        height: 8.5%;
+        font-size: 1.1vw;
+        border-radius: 3px;
+       
+    }
+
+    .banner--text--container{
+        font-size: 1.3vw;
+    }
+}
+
+@media screen and (max-width:575px){
+    .banner--container{
+        margin-left: 30px;
+        width: 33vw;
+    }
+
+    .banner--img--container{
+        height: 44vw;
+    }
+
+    .banner--batch{
+        width: 40%;
+        height: 8.5%;
+        font-size: 11px;
+        border-radius: 3px;
+        top:5px;
+        left:5px;
+       
+    }
+
+    .banner--text--container{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:475px){
+    .banner--container{
+        margin-left: 50px;
+        width: 37vw;
+    }
+
+    .banner--img--container{
+        height: 49.20vw;
+    }
+    
+    .banner--container{
+        margin-left: 15px;
+    }
+
+    .banner--batch{
+        width: 40%;
+        height: 8.5%;
+        font-size: 2.3vw;
+        border-radius: 3px;
+        top:5px;
+        left:5px;
+       
+    }
+
+    .banner--text--container{
+        font-size: 10px;
+    }
+}

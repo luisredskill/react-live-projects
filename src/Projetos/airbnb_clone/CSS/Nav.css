@@ -11,3 +11,14 @@ nav {
     height: 25px;
     margin: 22px 0 0 30px;
 }
+
+@media screen and (max-width:475px) {
+   nav{
+    height: 50px;
+   }
+   .nav--logo{
+    width: 82px;
+    height: 25px;
+    margin: 12.5px 17.5px;
+}
+}

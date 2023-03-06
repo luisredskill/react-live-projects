@@ -1,0 +1,58 @@
+.experiences {
+    margin: 70px 35px 50px 70px;
+}
+
+.experiences h1{
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+.experiences p{
+    font-size: 30px;
+   
+}
+
+@media screen and (max-width:1200px) {
+    .experiences {
+        margin: 50px 25px 30px 50px;
+    }
+    
+    .experiences h1{
+        font-size: 50px;
+    }
+    
+    .experiences p{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .experiences {
+        margin: 20px 20px 20px 30px;
+    }
+    
+    .experiences h1{
+        font-size: 40px;
+    }
+    
+    .experiences p{
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (max-width:475px) {
+    .experiences {
+        margin: 15px 15px 15px 15px;
+    }
+    
+    .experiences h1{
+        font-size: 30px;
+        margin-bottom: 7px;
+    }
+    
+    .experiences p{
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+}
